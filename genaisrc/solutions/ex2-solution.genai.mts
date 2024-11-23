@@ -8,7 +8,7 @@
  */
 script({
   model: "anthropic:claude-3-5-sonnet-20240620",
-  system: ["system.files"],
+  system: ["system.changelog"], // system.files also work, but replace whole file
 });
 
 const file = env.files;
