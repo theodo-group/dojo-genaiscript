@@ -1,20 +1,19 @@
 /**
- * Exercise 1: Write a file
+ * Exercise 2: Write a file
  *
  * Use this script to enhance variable naming quality
  *
- * Hint : multiple options
- *  - def
+ * Hint : There is multiple ways to let GenAIScript edit files
+ * - Check system.files and system.changelog
+ * - Do not forget to define which files GenAIScript can edit with defFileOuput
  */
 script({
   model: "anthropic:claude-3-5-sonnet-20240620",
-  system: ["system.files"],
 });
 
 const file = env.files;
 
 def("CODE_SNIPPET", file);
-defFileOutput(file, "File to update");
 
 $`You are a code quality analyst specializing in variable naming conventions.
 Your task is to analyze a given code snippet and update code to assure better naming on established best practices. 

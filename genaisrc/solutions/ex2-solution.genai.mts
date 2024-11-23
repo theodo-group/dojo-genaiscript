@@ -1,10 +1,5 @@
 /**
- * Exercise 1: Write a file
- *
- * Use this script to enhance variable naming quality
- *
- * Hint : multiple options
- *  - def
+ * Solution to exercise 2 
  */
 script({
   model: "anthropic:claude-3-5-sonnet-20240620",
