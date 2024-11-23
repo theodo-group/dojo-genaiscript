@@ -1,0 +1,22 @@
+{
+  "name": "dojo-genaiscript",
+  "version": "1.0.0",
+  "description": "A collection of practical exercises to learn and master GenAIScript",
+  "keywords": [
+    "genaiscript",
+    "llm",
+    "ai",
+    "typescript",
+    "exercises",
+    "training",
+    "automation"
+  ],
+  "scripts": {
+    "test": "genaiscript test"
+  },
+  "author": "Thomas Walter",
+  "license": "MIT",
+  "devDependencies": {
+    "genaiscript": "^1.78.3"
+  }
+}
