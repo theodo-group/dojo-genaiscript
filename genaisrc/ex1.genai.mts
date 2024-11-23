@@ -1,14 +1,13 @@
 /**
  * Exercise 1: Read a file
- * 
+ *
  * Use this script to evaluate variable naming quality
- * 
- * Hint : multiple options
- *  - use def
- *  - env.files to get from env
- *  - or workspace.findFiles
- *  - or use tool like fs_read_file
- *  - or agent agent_fs
+ *
+ * Hint : Read it from here (https://microsoft.github.io/genaiscript/getting-started/)
+ * There are multiple options
+ *  - env.files to get files from context
+ *  - workspace.findFiles
+ *  - tool like fs_read_file or agent agent_fs
  */
 script({
   model: "anthropic:claude-3-5-sonnet-20240620",
