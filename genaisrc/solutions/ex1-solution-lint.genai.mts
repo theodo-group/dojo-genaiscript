@@ -1,3 +1,12 @@
+/**
+ * Alternative solution to exercise 1 that provides linting-style feedback
+ *
+ * This version uses system.annotations to output GitHub-compatible annotations
+ * that VSCode can render as inline diagnostics, similar to a linter.
+ *
+ * The annotations will appear as warnings/errors in the editor
+ */
+
 script({
   model: "anthropic:claude-3-5-sonnet-20240620",
   system: ["system.annotations"],

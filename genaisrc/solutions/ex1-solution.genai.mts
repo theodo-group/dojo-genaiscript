@@ -4,9 +4,9 @@ script({
 
 def("CODE_SNIPPET", env.files); // env.files are passed as parameters when using VS Extension
 
-/* Alternative
-const files = await workspace.findFiles("src/*.ts");
-def("CODE_SNIPPET", env.files) 
+/* Alternative to find all files matching a pattern
+  const files = await workspace.findFiles("src/*.ts");
+  def("CODE_SNIPPET", env.files) 
 */
 
 $`You are a code quality analyst specializing in variable naming conventions.
