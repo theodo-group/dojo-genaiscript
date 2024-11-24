@@ -26,3 +26,7 @@ A collection of practical exercises to learn and master GenAIScript.
 Each exercise is contained in a separate file in the `genaisrc` directory named `exN.genai.mts` where N is the exercise number.
 
 To run an exercise:
+
+```bash
+$ pnpm genaiscript run ex0
+```

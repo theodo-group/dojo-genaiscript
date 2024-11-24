@@ -12,7 +12,7 @@
     "automation"
   ],
   "scripts": {
-    "test": "genaiscript test"
+    "start": "genaiscript run"
   },
   "author": "Thomas Walter",
   "license": "MIT",
