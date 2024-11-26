@@ -38,4 +38,4 @@ const branchName = response.text;
 
 const branch = await git.exec(["checkout", "-b", branchName]);
 console.log(`Branch ${branch} created !`);
-cancel();
+cancel(); // Cancel the script execution as the task is done
