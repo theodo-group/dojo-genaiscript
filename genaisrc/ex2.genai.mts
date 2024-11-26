@@ -4,8 +4,10 @@
  * Use this script to enhance variable naming quality
  *
  * Hint : There is multiple ways to let GenAIScript edit files
- * - Check system.files and system.changelog
- * - Do not forget to define which files GenAIScript can edit with defFileOuput
+ * - Check documentation of (system.files)[https://microsoft.github.io/genaiscript/reference/scripts/system/#systemfiles]
+ *    and (system.changelog)[https://microsoft.github.io/genaiscript/reference/scripts/system/#systemchangelog]
+ * - Do not forget (defFileOuput)[https://microsoft.github.io/genaiscript/reference/scripts/file-output/#declaring-file-outputs]
+ *    to define which files GenAIScript can edit with
  */
 script({
   model: "anthropic:claude-3-5-sonnet-20240620",
