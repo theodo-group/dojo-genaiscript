@@ -17,6 +17,6 @@
   "author": "Thomas Walter",
   "license": "MIT",
   "devDependencies": {
-    "genaiscript": "^1.78.3"
+    "genaiscript": "1.72.0"
   }
 }
