@@ -5,13 +5,15 @@
  *
  * Hint : Read it from here (https://microsoft.github.io/genaiscript/getting-started/)
  * There are multiple options
- *  - env.files to get files from context
- *  - workspace.findFiles
- *  - tool like fs_read_file or agent agent_fs
+ *  - env.files : to get files when using VSCode Extension
+ *  - workspace.findFiles : to pass files programmatically
+ *  - tool like fs_read_file or agent agent_fs : to let Claude choose
  */
 script({
   model: "anthropic:claude-3-5-sonnet-20240620",
 });
+
+// TODO : Pass file to analyze here using `def`
 
 $`You are a code quality analyst specializing in variable naming conventions.
 Your task is to analyze a given code snippet and suggest better naming on established best practices. 
