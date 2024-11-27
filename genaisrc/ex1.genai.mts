@@ -8,6 +8,9 @@
  *  - env.files : to get files when using VSCode Extension
  *  - workspace.findFiles : to pass files programmatically
  *  - tool like fs_read_file or agent agent_fs : to let Claude choose
+ * 
+ * Extra : Find a way to highlight problems directly in the IDE. See ![Linter](./docs/linter.jpeg)
+ * 
  */
 script({
   model: "anthropic:claude-3-5-sonnet-20240620",
