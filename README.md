@@ -22,10 +22,10 @@ A collection of practical exercises to learn and master GenAIScript.
    ANTHROPIC_API_KEY=your-api-key-here
    ```
 
-3. Install GenAIScript VSCode Extension (1.72.0)
+3. Install GenAIScript VSCode Extension (1.90.0)
 
    ```bash
-   code --install-extension genaiscript.genaiscript-vscode@1.72.0
+   code --install-extension genaiscript.genaiscript-vscode@1.90.0
    ```
 
 4. Make sure everything is working by running the first exercise:
